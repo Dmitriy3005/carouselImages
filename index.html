@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Карусель изображений</title>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+    <div class="images">
+        <img src="111.jpg" width="100%">
+    </div>
+    <div class="images">
+        <img src="222.jpg" width="100%">
+    </div>
+    <div class="images" >
+        <img src="333.jpg" width="100%">
+    </div>
+</div>
+<div class="switches">
+<i id="back" onclick="switchesImage(-1)">&lt</i>
+<i id="next" onclick="switchesImage(1)">&gt</i>
+</div>
+<div class="dots">
+    <i class="dot"></i>
+    <i class="dot"></i>
+    <i class="dot"></i>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
